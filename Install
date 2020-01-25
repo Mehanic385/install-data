@@ -1,1 +1,17 @@
 
+pkg update && pkg upgrade
+pkg install python python2 python3
+pip2 install mechanize
+pip2 install requests
+pip2 install colorama
+pkg install ruby && gem install lolcat
+pkg install openssh
+pkg install openssl
+pkg install wget
+pkg install curl
+pkg install php
+pkg install figlet
+pkg install screenfetch
+pkg install git
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+pkg install mc
